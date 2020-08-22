@@ -1,0 +1,84 @@
+<header class="header">
+  <h1 id="title">Survey Form</h1>
+  <p id="description">This page is a basic survey form</p>
+</header>
+
+<form id="survey-form">
+  <div class="form-inputs">
+    <label id="name-label" for="name">Name</label>
+    <input
+      type="text"
+      name="name"
+      id="name"
+      class="form-control"
+      placeholder="Please write your name"
+      required
+    />
+  </div>
+  <div class="form-inputs">
+    <label id="email-label" for="email">E-mail</label>
+    <input
+      type="email"
+      name="email"
+      id="email"
+      class="form-control"
+      placeholder="Please enter your email"
+      required
+    />
+  </div>
+  <div class="form-inputs">
+    <label id="number-label" for="age">Age</label>
+    <input
+      type="number"
+      name="age"
+      id="number"
+      class="form-control"
+      placeholder="Please enter your age"
+      min="1"
+      max="99"
+    />
+  </div>
+  <div class="form-inputs">
+    <p>Please select your current education level</p>
+    <select name="education-level" id="dropdown">
+      <option value="empty">Empty</option>
+      <option value="no-ed">No education</option>
+      <option value="h-school">Highscool</option>
+      <option value="undergrad">Undergraduate</option>
+      <option value="mas">Master's</option>
+      <option value="doc">Doctorate</option>
+    </select>
+  </div>
+  <div class="form-inputs">
+    <label id="gender-label" for="gender-opt-1">
+      Men <input type="radio" id="gender-opt-1" name="gender" value="M"
+    /></label>
+    <label id="gender-label" for="gender-opt-2">
+      Women <input type="radio" id="gender-opt-2" name="gender" value="F"
+    /></label>
+  </div>
+  <div class="form-inputs">
+    <label id="hobby-label" for="hobby-opt-1">
+      Swimming <input type="checkbox" id="hobby-opt-1" name="hobby" value="S"
+    /></label>
+    <label id="hobby-label" for="hobby-opt-2">
+      Reading <input type="checkbox" id="hobby-opt-2" name="hobby" value="R"
+    /></label>
+    <label id="hobby-label" for="hobby-opt-3">
+      Playing guitar
+      <input type="checkbox" id="hobby-opt-3" name="hobby" value="G"
+    /></label>
+    <label id="hobby-label" for="hobby-opt-4">
+      Playing video games
+      <input type="checkbox" id="hobby-opt-4" name="hobby" value="P"
+    /></label>
+  </div>
+  <div class="form-inputs">
+    <textarea></textarea>
+  </div>
+  <div class="form-inputs">
+    <button id="submit">Submit</button>
+  </div>
+</form>
+
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
