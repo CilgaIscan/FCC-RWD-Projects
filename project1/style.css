@@ -1,25 +1,25 @@
 #main {
-    background-color: lightyellow;
+  background-color: lightyellow;
 }
 
 #title {
-    font-family: monospace;
-    text-align: center;
+  font-family: monospace;
+  text-align: center;
 }
 
 #img-div {
-    display: flex;
-    flex-direction: column;
-    justify-items: center;
-    text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  text-align: center;
 }
 
 #image {
-    height: auto;
-    max-width: 100%;
+  height: auto;
+  max-width: 100%;
 }
 
 #tribute-info {
-    font-family: monospace;
-    text-align: left;
+  font-family: monospace;
+  text-align: left;
 }
